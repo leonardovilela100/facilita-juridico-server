@@ -16,8 +16,8 @@
     <h3>Pré-requisitos</h3>
     <p>Antes de iniciar, certifique-se de ter o Node.js e o npm instalados em seu computador.</p>
     <ul>
-        <li>Node.js</li>
-        <li>npm</li>
+        <li>Node.js: Versão - v20.9.0</li>
+        <li>npm: Versão - 10.2.3</li>
     </ul>
       <h3>Instalação</h3>
     <p>Siga os passos abaixo para configurar o projeto em sua máquina local:</p>
