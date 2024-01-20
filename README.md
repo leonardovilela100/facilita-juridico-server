@@ -23,11 +23,6 @@
         <li>Node.js</li>
         <li>npm</li>
     </ul>
-    <h3>Pré-requisitos</h3>
-    <ul>
-        <li>Node.js</li>
-        <li>npm</li>
-    </ul>
       <h3>Instalação</h3>
     <p>Siga os passos abaixo para configurar o projeto em sua máquina local:</p>
     <ol>
