@@ -39,7 +39,7 @@ cd facilita-juridico-server</code></pre>
         <li><strong>Inicie o servidor de desenvolvimento:</strong> Use <code>npm run dev</code> para iniciar o servidor.</li>
         <pre><code>npm run dev</code></pre>
     </ol>
-    <h3>Dependencies</h3>
+    <h3>Dependências</h3>
 <p>As dependências incluem:</p>
 <ul>
     <li><code>@prisma/client</code>: Cliente para consulta ao banco de dados com Prisma.</li>
@@ -48,13 +48,10 @@ cd facilita-juridico-server</code></pre>
     <li><code>cors</code>: Middleware para habilitar CORS com várias opções.</li>
     <li><code>express</code>: Framework web rápido, flexível e minimalista para Node.js.</li>
     <li><code>express-async-errors</code>: Extensão para tratamento de erros assíncronos no Express.</li>
-    <li><code>jest</code>: Framework de teste JavaScript com foco na simplicidade.</li>
     <li><code>pg</code>: Cliente PostgreSQL não bloqueante para Node.js.</li>
     <li><code>pg-hstore</code>: Serializador e desserializador para hstore (formato de armazenamento de chave-valor no PostgreSQL).</li>
     <li><code>pg-promise</code>: Biblioteca para integração do PostgreSQL com promessas.</li>
-    <li><code>prisma</code>: ORM moderno para Node.js e TypeScript.</li>
-    <li><code>sequelize</code>: ORM baseado em promessas para Node.js.</li>
-</ul>
+    <li><code>prisma</code>: ORM moderno para Node.js e TypeScript.</li></ul>
 <h3>DevDependencies</h3>
 <p>As dependências de desenvolvimento incluem:</p>
 <ul>
@@ -79,7 +76,6 @@ cd facilita-juridico-server</code></pre>
 │   ├── utils/    
 │   └── server.ts
 </code></pre>
-
 <h2>Dados de Exemplo para Cadastro de Clientes</h2>
     <p>Segue abaixo um exemplo de JSON com dados de clientes para ser utilizado no cadastro:</p>
     <pre><code>[
