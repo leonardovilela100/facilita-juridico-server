@@ -1,9 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt">
-<head>
-     <meta charset="UTF-8">
-    <title>Projeto Facilita Jurídico - Documentação</title>
-</head>
 <body>
     <h1>Projeto Facilita Jurídico</h1>
       <h2>Descrição do Projeto</h2>
