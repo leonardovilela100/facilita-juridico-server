@@ -77,7 +77,7 @@ cd facilita-juridico-server</code></pre>
 │   └── server.ts
 </code></pre>
 
-<h3>(1) Rota de Usuários</h3>
+<h3>Rota de Clientes</h3>
 <table>
     <thead>
         <tr>
