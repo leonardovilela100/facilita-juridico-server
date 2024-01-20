@@ -83,5 +83,40 @@ cd facilita-juridico-server</code></pre>
 │   ├── utils/    
 │   └── server.ts
 </code></pre>
+
+<h2>Dados de Exemplo para Cadastro de Clientes</h2>
+    <p>Segue abaixo um exemplo de JSON com dados de clientes para ser utilizado no cadastro:</p>
+    <pre><code>[
+    {
+      "nome": "Teste Cidade - Prata",
+      "email": "prata@gmail.com",
+      "telefone": "99999",
+      "cep": "38140000"
+    },
+    {
+      "nome": "Teste Cidade - Rio de Janeiro",
+      "email": "rio@gmail.com",
+      "telefone": "99999",
+      "cep": "20230010"
+    },
+    {
+      "nome": "Teste Cidade - Uberlandia",
+      "email": "uberlandia@gmail.com",
+      "telefone": "99999",
+      "cep": "38204054"
+    },
+    {
+      "nome": "Teste Cidade - São Jose Dos Campos",
+      "email": "saojosedoscampos@gmail.com",
+      "telefone": "99999",
+      "cep": "12244521"
+    },
+    {
+      "nome": "Teste Cidade - Araguari",
+      "email": "araguari@gmail.com",
+      "telefone": "99999",
+      "cep": "38443084"
+    }
+]</code></pre>
 </body>
 </html>
