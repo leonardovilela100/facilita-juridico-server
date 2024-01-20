@@ -39,6 +39,38 @@ cd facilita-juridico-server</code></pre>
         <li><strong>Inicie o servidor de desenvolvimento:</strong> Use <code>npm run dev</code> para iniciar o servidor.</li>
         <pre><code>npm run dev</code></pre>
     </ol>
+    <h3>Rota de Clientes</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Método</th>
+            <th>URL</th>
+            <th>Descrição</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>GET</td>
+            <td>/clientes</td>
+            <td>Recupera uma lista de todos os clientes cadastrados no sistema.</td>
+        </tr>
+          <tr>
+            <td>GET</td>
+            <td>/clientes?nome=Teste%20Cidade%20-%20Prata&email=prata%40gmail.com&telefone=99999</td>
+        <td>Busca clientes específicos aplicando filtros por nome, email e telefone através de parâmetros na Query String.</td>
+        </tr>
+        <tr>
+            <td>POST</td>
+            <td>/clientes</td>
+            <td>Registra um novo cliente no sistema com as informações fornecidas no corpo da requisição. - "nome": "Teste Cidade - Araguari","email": "araguari@gmail.com","telefone": "99999","cep": "38443084"</td>
+        </tr>
+           <tr>
+            <td>GET</td>
+            <td>/clientesRota</td>
+            <td>Fornece uma lista otimizada de clientes, organizada para minimizar a rota total percorrida entre as cidades dos clientes cadastrados.</td>
+        </tr>
+    </tbody>
+</table>
     <h3>Dependências</h3>
 <p>As dependências incluem:</p>
 <ul>
@@ -77,38 +109,7 @@ cd facilita-juridico-server</code></pre>
 │   └── server.ts
 </code></pre>
 
-<h3>Rota de Clientes</h3>
-<table>
-    <thead>
-        <tr>
-            <th>Método</th>
-            <th>URL</th>
-            <th>Descrição</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>GET</td>
-            <td>/clientes</td>
-            <td>Recupera uma lista de todos os clientes cadastrados no sistema.</td>
-        </tr>
-          <tr>
-            <td>GET</td>
-            <td>/clientes?nome=Teste%20Cidade%20-%20Prata&email=prata%40gmail.com&telefone=99999</td>
-        <td>Busca clientes específicos aplicando filtros por nome, email e telefone através de parâmetros na Query String.</td>
-        </tr>
-        <tr>
-            <td>POST</td>
-            <td>/clientes</td>
-            <td>Registra um novo cliente no sistema com as informações fornecidas no corpo da requisição. - "nome": "Teste Cidade - Araguari","email": "araguari@gmail.com","telefone": "99999","cep": "38443084"</td>
-        </tr>
-           <tr>
-            <td>GET</td>
-            <td>/clientesRota</td>
-            <td>Fornece uma lista otimizada de clientes, organizada para minimizar a rota total percorrida entre as cidades dos clientes cadastrados.</td>
-        </tr>
-    </tbody>
-</table>
+
 <h2>Dados de Exemplo para Cadastro de Clientes</h2>
     <p>Segue abaixo um exemplo de JSON com dados de clientes para ser utilizado no cadastro:</p>
     <pre><code>[
