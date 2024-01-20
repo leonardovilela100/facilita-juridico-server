@@ -66,7 +66,8 @@ class ClienteService {
         email: clienteRequest.email,
         telefone: clienteRequest.telefone,
         coordenada_x: coordenadaX,
-        coordenada_y: coordenadaY
+        coordenada_y: coordenadaY,
+        cep: clienteRequest.cep
       },
       select: {
         nome: true,
